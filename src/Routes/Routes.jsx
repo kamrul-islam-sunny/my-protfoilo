@@ -4,10 +4,11 @@ import {
 import App from "../App";
 import Layout from "../layout/Layout";
 import HomePage from "../page/HomePage";
-import ProjectsDetails from "../page/projectsDetails";
 import Project from "../components/Project";
 import About from "../components/About";
 import Skill from "../components/Skill";
+import ProjectDetails from "../page/ProjectDetails";
+
 
 
 const router = createBrowserRouter([
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/:slug",
-        element: <ProjectsDetails />,
+        element: <ProjectDetails/>,
       }
 
     ]
