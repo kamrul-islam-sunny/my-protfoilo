@@ -111,7 +111,7 @@ export default function Skill() {
                     {basicSkills.map((skill, index) => (
                         <div
                             key={index}
-                            className="flex flex-col items-center justify-center border border-gray-200 hover:border-gray-400 bg-gray-50 hover:bg-gray-100 px-2 py-4 rounded-xl transition-all duration-300 shadow-sm hover:shadow-lg transform hover:scale-105 hover:translate-y-2 "
+                            className="flex flex-col items-center justify-center border border-gray-200 hover:border-gray-400 bg-gray-50 hover:bg-gray-100 px-2 py-4 rounded-xl transition-all duration-300 shadow-sm hover:shadow-lg transform hover:scale-105 hover:translate-y-0.5 "
                         >
                             {skill.icon}
                             <h3 className="mt-2 font-semibold text-gray-800">{skill.name}</h3>

@@ -4,6 +4,7 @@ import Skill from '../components/Skill'
 import About from '../components/About'
 import Project from '../components/Project'
 import ContactMe from '../components/ContactMe'
+import Educational from '../components/Educational'
 
 
 
@@ -13,6 +14,7 @@ export default function HomePage() {
        <Hero/>
        <About/>
        <Skill/>
+       <Educational/>
        <Project/>
         <ContactMe/>
     </div>

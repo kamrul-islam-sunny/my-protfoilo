@@ -8,6 +8,7 @@ import Project from "../components/Project";
 import About from "../components/About";
 import Skill from "../components/Skill";
 import ProjectDetails from "../page/ProjectDetails";
+import AboutMe from "../page/AboutMe";
 
 
 
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <div className="py-10">
-          <About/>
+          <AboutMe/>
         </div>,
       },
       {

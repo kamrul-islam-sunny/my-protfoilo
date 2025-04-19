@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="flex flex-col-reverse md:flex-row items-center md:justify-between py-8 md:py-16 ">
                 <div className="text-center md:text-start">
                     <p className="hidden md:block text-sm font-medium text-gray-600">Hi, my name is</p>
-                    <h1 className="font-mono text-2xl md:text-3xl font-bold text-gray-700 mt-2">Kamrul Islam Sunny</h1>
+                    <h1 className=" text-2xl md:text-3xl font-semibold text-gray-700 mt-2">Kamrul Islam Sunny</h1>
                     <h2 className="mt-2 text-lg md:text-xl text-gray-800">
                         <span className="font-semibold ">Frontend Developer</span> & <span className="font-medium ">Web Designer</span>
                     </h2>

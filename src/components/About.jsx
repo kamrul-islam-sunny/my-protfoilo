@@ -13,7 +13,7 @@ export default function About() {
                     <div className="flex flex-col justify-center">
                         <h2 className="text-3xl font-semibold text-gray-800">About Me</h2>
                         <p className="mt-4 text-lg text-gray-600">
-                            Hi, I'm Kamrul Islam Sunny, a passionate frontend developer and web designer based in Dhaka, Bangladesh. I specialize in creating beautiful, user-interactive websites that deliver great user experiences. I love solving problems through technology and enjoy learning new things to improve my skills.
+                            Hi, I'm Kamrul Islam Sunny, a passionate frontend developer and web designer based in Dhaka, Bangladesh. I enjoy building beautiful, user-interactive websites that focus on delivering great user experiences. I love solving problems through technology and enjoy learning new things to improve my skills.
                         </p>
 
                         <p className="mt-4 text-lg text-gray-600">

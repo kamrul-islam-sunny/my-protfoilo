@@ -1,7 +1,6 @@
-import winterAid from '../../public/asset/winter.png'
-import lostAndFound from '../../public/asset/lostAndFound.png'
-import nikahLink from '../../public/asset/nikah.png'
-
+import winterAid from "../../public/asset/winter.png";
+import lostAndFound from "../../public/asset/lostAndFound.png";
+import nikahLink from "../../public/asset/nikah.png";
 
 const projects = [
   {
@@ -28,7 +27,11 @@ const projects = [
       "https://github.com/kamrul-islam-sunny/NikahLink-cilent?tab=readme-ov-file",
     challenges_faced:
       "Implementing a secure authentication system, ensuring data privacy, and creating a responsive design that works seamlessly across devices.",
-    potential_improvements_future_plans: "....",
+    potential_improvements_future_plans: [
+      "1. Push notifications for new matches or biodata requests.",
+      "2. Integrate a location-based search filter, allowing users to find matches in their preferred geographical area.",
+      "3. Advanced verification system ."
+    ],
     admin_credentials: {
       email: "admin@gmail.com",
       password: "123asd",
@@ -74,8 +77,15 @@ const projects = [
     live_project_link: "https://lost-and-found-df2f9.web.app/",
     github_repository_link:
       "https://github.com/kamrul-islam-sunny/whereIsit-cilent?tab=readme-ov-file",
-    challenges_faced: "abc",
-    potential_improvements_future_plans: "abc",
+    challenges_faced:
+      "Implementing secure user authentication, ensuring accurate item matching between users, and designing a user-friendly interface that works well on mobile and desktop were key challenges. Managing database queries efficiently for searching and filtering items was also a significant hurdle.",
+    potential_improvements_future_plans: [
+      "1. Add a real-time chat feature between finder and owner for faster communication.",
+      "2. Implement a QR code system to tag and track lost items physically.",
+      "3. Add notification alerts for matched items and updates.",
+      "4. Include multi-language support to make the platform accessible to more users.",
+      "5. Enhance security with two-factor authentication (2FA).",
+    ],
     features: [
       "🔐 SignIn, SignUp, and Logout functionality.",
       "🔐 Google SignIn integration for easy access.",
@@ -119,8 +129,18 @@ const projects = [
     ],
     live_project_link: "https://tangerine-kleicha-177215.netlify.app/",
     github_repository_link: "https://github.com/codelifo/portfolio-client",
-    challenges_faced: "abc",
-    potential_improvements_future_plans: "abc",
+    challenges_faced:
+      "Managing secure authentication, handling user data safely, and creating a seamless user experience with proper error handling were some of the main challenges. Ensuring smooth deployment with backend and frontend integration also required significant effort.",
+    potential_improvements_future_plans: [
+      "1. Add an admin dashboard for better campaign management and user monitoring.",
+      "2. Introduce real-time notifications for donors and volunteers.",
+      "3. Implement a progress tracking feature for each campaign.",
+      "4. Improve security with advanced authentication methods like OTP verification.",
+      "5. Develop a mobile app version to reach a wider audience.",
+      "6. Add a blog/news section to raise awareness about winter aid activities.",
+      "7. Include multi-language support (English and Bengali) for better accessibility.",
+      "8. Integrate a payment gateway for financial donations.",
+    ],
   },
 ];
 
